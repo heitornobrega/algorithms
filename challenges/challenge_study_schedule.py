@@ -19,6 +19,3 @@ def study_schedule(permanence_period, target_time):
         if student_time[0] <= target_time <= student_time[1]:
             c += 1
     return c
-
-
-print(study_schedule([(2, 2), (1, 2), (2, 3), (1, 5), (4, 5), (4, 5)], 1))
