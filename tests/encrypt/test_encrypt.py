@@ -3,7 +3,7 @@ from challenges.challenge_encrypt_message import encrypt_message
 
 
 def test_encrypt_message():
-    #test
+
     with pytest.raises(TypeError):
         encrypt_message("12345678", "chave")
 
